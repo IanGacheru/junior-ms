@@ -1,0 +1,20 @@
+ m = 90
+ e = 80
+ f = 70
+ g = 60
+ l = 50
+ 
+ sum = m+e+f+g+l
+ 
+ if sum <= 350 && sum > 300
+     print "A"
+ elsif sum <= 300 && sum > 250
+ print "B"
+ elsif sum <= 250 && sum > 200
+ print "C"
+ elsif sum <= 200 && sum > 150
+ print "D"
+ else 
+     "Fail"
+ end 
+ 
